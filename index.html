@@ -132,6 +132,7 @@
   .entry-body{ padding:20px; }
   .entry-body h3{ font-size:18px; margin:0 0 3px; }
   .entry-body .org{ font-family:var(--mono); font-size:12.5px; color:var(--ink-faint); margin-bottom:16px; }
+  .entry-body .project-img{ width:100%; border-radius:4px; border:1px solid var(--border); margin:12px 0 16px; display:block; background:#fff; }
   .field{ margin-bottom:14px; }
   .field:last-of-type{ margin-bottom:0; }
   .field .k{ font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:var(--ink-faint); margin-bottom:4px; }
@@ -190,7 +191,6 @@
       <a href="#about-me">About Me</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#changelog">Changelog</a>
-      <a href="#notes">Field Notes</a>
       <a href="#skills">Skills</a>
       <a href="#resume">Resume</a>
     </nav>
@@ -233,34 +233,32 @@
   </section>
 
   <section id="roadmap">
-    <div class="section-label">Roadmap</div>
-    <p class="section-sub">My background is environmental and civil engineering with a strong passion for community service — my target is business analytics. Here's how.</p>
+    <div class="section-label">Hybrid Track</div>
+    <h2 class="section-title">The Bridge</h2>
+    <p class="section-sub">My background is environmental and civil engineering — my target is business analytics. Here's the throughline, skill by skill, rather than a leap you have to take on faith.</p>
 
     <div class="goal">
       <div class="goal-head">
-        <h3>Land a data analyst role that treats technical complexity as an asset, not a liability</h3>
-        <span class="badge badge-blue">In progress</span>
+        <h3>Modeling technical, domain-heavy datasets</h3>
       </div>
-      <div class="goal-row"><div class="k">From</div><div class="v">Calibrating satellite prediction models against ground-truth data across 57 watersheds</div></div>
-      <div class="goal-row"><div class="k">To</div><div class="v">Applying the same modeling and validation rigor to business datasets</div></div>
+      <div class="goal-row"><div class="k">Built through</div><div class="v">Calibrating a satellite-based prediction model against real-world water quality data for a NASA-funded research project</div></div>
+      <div class="goal-row"><div class="k">Applies to</div><div class="v">Bringing the same rigor to business datasets — cleaning, modeling, and validating results that hold up under scrutiny</div></div>
     </div>
 
     <div class="goal">
       <div class="goal-head">
-        <h3>Turn technical model output into a decision a non-technical stakeholder can act on</h3>
-        <span class="badge badge-green">Complete</span>
+        <h3>Translating technical output into a decision</h3>
       </div>
-      <div class="goal-row"><div class="k">From</div><div class="v">Presenting research findings at the WFU Undergraduate Research Symposium</div></div>
-      <div class="goal-row"><div class="k">To</div><div class="v">Turning spatial/statistical analysis into a decision-support tool non-specialists can use</div></div>
+      <div class="goal-row"><div class="k">Built through</div><div class="v">Presenting research findings to both technical and non-technical audiences at the WFU Undergraduate Research Symposium</div></div>
+      <div class="goal-row"><div class="k">Applies to</div><div class="v">Turning a model's output into something a stakeholder without a technical background can actually act on</div></div>
     </div>
 
     <div class="goal">
       <div class="goal-head">
-        <h3>Bring a track record of managing process and people, not just models</h3>
-        <span class="badge badge-green">Complete</span>
+        <h3>Owning process, not just models</h3>
       </div>
-      <div class="goal-row"><div class="k">From</div><div class="v">Ran new-member records and standards for a 200+ member organization as Membership VP</div></div>
-      <div class="goal-row"><div class="k">To</div><div class="v">Process ownership and stakeholder communication on an analytics team</div></div>
+      <div class="goal-row"><div class="k">Built through</div><div class="v">Managing new-member records and standards for a 200+ member organization as Membership VP</div></div>
+      <div class="goal-row"><div class="k">Applies to</div><div class="v">Process ownership and stakeholder communication on an analytics team</div></div>
     </div>
   </section>
 
@@ -282,6 +280,7 @@
         <div class="field"><div class="k">Context</div><div class="v">A NASA-funded study needed a scalable way to track coastal marsh change over time across dozens of watersheds — too much ground-truth data to collect manually.</div></div>
         <div class="field"><div class="k">My role</div><div class="v">Built automated multi-temporal land-cover classification workflows in Google Earth Engine, prepared and validated geospatial training data in ArcGIS Pro, and evaluated model accuracy in MATLAB. Mentored an undergraduate intern on the same methods.</div></div>
         <div class="field"><div class="k">Outcome</div><div class="v">Delivered a calibrated, scalable prediction model validated across 57 watersheds, and presented the findings at the WFU Undergraduate Research Symposium.</div></div>
+        <div class="field"><div class="k">Industry Context</div><div class="v">Environmental and sustainability metrics are moving from research-only datasets into standard business reporting, which is raising demand for analysts who can work with geospatial and remote-sensing data at this level of rigor.</div></div>
         <div class="tool-row">
           <span><strong>Tools</strong>Google Earth Engine · ArcGIS Pro · MATLAB</span>
           <span><strong>Approach</strong>Manual ground-truth sampling → automated multi-temporal classification</span>
@@ -302,34 +301,12 @@
         <div class="field"><div class="k">Context</div><div class="v">Parcel, zoning, demographic, and infrastructure data for Winston-Salem existed across separate public sources, making it hard for local planners to identify where community initiatives would have the most impact.</div></div>
         <div class="field"><div class="k">My role</div><div class="v">Integrated the four datasets into a single interactive GIS application in ArcGIS Pro and applied spatial analysis to surface suitable locations.</div></div>
         <div class="field"><div class="k">Outcome</div><div class="v">Shipped a decision-support tool that consolidates previously scattered public datasets into one place for local planning decisions.</div></div>
+        <div class="field"><div class="k">Industry Context</div><div class="v">Local governments and planning agencies are increasingly investing in centralized geospatial platforms to replace fragmented public data systems — this project anticipated that exact shift on a local scale.</div></div>
         <div class="tool-row">
           <span><strong>Tools</strong>ArcGIS Pro · ArcGIS Online</span>
           <span><strong>Approach</strong>Scattered public datasets → single spatial decision-support tool</span>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="notes">
-    <div class="section-label">Field Notes</div>
-    <h2 class="section-title">What I'm watching in analytics hiring</h2>
-    <p class="section-sub">And why it shapes how I position this background.</p>
-
-    <div class="note">
-      <div class="k">Trend</div>
-      <p>Environmental and sustainability metrics are moving from research-only datasets into standard business reporting, which means companies increasingly need analysts comfortable with geospatial and environmental data, not just sales and operations data.</p>
-    </div>
-    <div class="note">
-      <div class="k">Trend</div>
-      <p>Remote sensing and satellite data are showing up commercially now — in insurance underwriting, agriculture, and infrastructure planning — where they used to live mostly in research labs.</p>
-    </div>
-    <div class="note why">
-      <div class="k">Why it matters to my work</div>
-      <p>The coastal marsh project already sits at that intersection: it's a research pipeline that generalizes directly to the kind of commercial remote-sensing work these industries are starting to need.</p>
-    </div>
-    <div class="note">
-      <div class="k">Where I'm going next</div>
-      <p>I want a data analyst role where a technical, domain-heavy dataset is the norm, not the exception — somewhere I can keep pairing statistical rigor with a clear business case, the way this MSBA is training me to.</p>
     </div>
   </section>
 
